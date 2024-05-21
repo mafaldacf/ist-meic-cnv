@@ -1,0 +1,34 @@
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+# https://github.com/takari/maven-wrapper#usage-without-binary-jar
+.mvn/wrapper/maven-wrapper.jar
+
+# Eclipse m2e generated files
+# Eclipse Core
+.project
+# JDT-specific (Eclipse Java Development Tools)
+.classpath
+
+.vscode/
+.idea/
+scripts/aws-infrastructure/config.sh
+scripts/aws-infrastructure/tmp/instance.dns
+scripts/aws-infrastructure/tmp/instance.id
+scripts/aws-infrastructure/tmp/image.id
+loadbalancer/target/
+metricsFile.txt
+scripts/python/__pycache__/
+foxes-rabbits/bytecode/
+insect-war/bytecode/
+output/
+
+# Instrumented apps
+instrumented-lambda-jars/instrumented-foxes-rabbits.jar
+instrumented-lambda-jars/instrumented-insect-war.jar

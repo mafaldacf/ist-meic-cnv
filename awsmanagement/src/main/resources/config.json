@@ -1,0 +1,5 @@
+{
+  "SECURITY_GROUP_ID":"sg-08fd5e54334b35589",
+  "KEY_PAIR_NAME": "cnv",
+  "INSTANCE_AMI_ID": "ami-0fb02438666e9a399"
+}

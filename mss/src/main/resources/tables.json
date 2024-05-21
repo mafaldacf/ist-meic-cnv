@@ -1,0 +1,54 @@
+{
+  "FoxRabbitMetrics":
+  [{
+    "world": 1,
+    "scenario": 1,
+    "generations": 100,
+    "work": 1126420
+  },
+    {
+      "world": 2,
+      "scenario": 1,
+      "generations": 100,
+      "work": 5473393
+    },
+    {
+      "world": 3,
+      "scenario": 1,
+      "generations": 100,
+      "work": 21627489
+    },
+    {
+      "world": 4,
+      "scenario": 1,
+      "generations": 100,
+      "work": 50393530
+    }]
+,
+  "AntWarMetrics": {
+    "max": 20,
+    "army1": 20,
+    "army2": 20,
+    "work": 176692582
+  },
+  "CompressionMetrics":
+  [{
+    "targetFormat": "JPEG",
+    "compressionFactor": 0.5,
+    "pixels": 786432,
+    "work": 31775
+  },
+    {
+      "targetFormat": "Deflate",
+      "compressionFactor": 0.5,
+      "pixels": 786432,
+      "work": 43910
+    },
+    {
+      "targetFormat": "BI_RGB",
+      "compressionFactor": 0.5,
+      "pixels": 786432,
+      "work": 56884
+    }
+  ]
+}
