@@ -14,7 +14,17 @@ The **EcoWork @ Cloud** project consists on designing and implementing a system 
     <img src="figures/fig1-architecture.png" alt="drawing" width="760"/>
 </p>
 
-# Architecture
+## Authors
+
+Group 10
+
+92513 Mafalda Ferreira
+
+105710 João Travassos
+
+105714 Olga Silva
+
+## Architecture
 
 The project is composed of five distinct modules:
 - `webserver` and `javassist` - instrumentalization done with ThreadICount:
@@ -23,7 +33,7 @@ The project is composed of five distinct modules:
 - `mss` - dynamodb utilities for loadbalancer and lambdas
 - `instrumented-lambdas-jars` - contains two jars with instrumented bytecode to be executed in AWS Lambda functions
 
-# Requirements
+## Requirements
 
 - Java >= 11.0.22
 - Apache Maven >= 3.6.3
@@ -41,9 +51,9 @@ Configure your aws credentials
 aws configure
 ```
 
-# Getting Started
+## Getting Started
 
-## Running in AWS
+### Running in AWS
 
 Create a copy of `scripts/aws-infrastructure/config-template.sh` and rename it to `scripts/aws-infrastructure/config.sh`.
 Fill in your configuration accordingly.
@@ -92,7 +102,7 @@ Create and deploy an EC2 instance with Load Balancer and Auto Scaler:
 ```
 
 
-## Running Locally
+### Running Locally
 
 If you wish to run the project for testing purposes, you can run the project locally.
 
